@@ -5,23 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
+	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <title>Home | E-Shopper</title>
-    <link href="{{secure_asset('frontend_/css/bootstrap.min.css')}}" rel="stylesheet">
-    <link href="{{secure_asset('frontend_/css/font-awesome.min.css')}}" rel="stylesheet">
-    <link href="{{secure_asset('frontend_/css/prettyPhoto.css')}}" rel="stylesheet">
-    <link href="{{secure_asset('frontend_/css/price-range.css')}}" rel="stylesheet">
-    <link href="{{secure_asset('frontend_/css/animate.css')}}" rel="stylesheet">
-	<link href="{{secure_asset('frontend_/css/main.css')}}" rel="stylesheet">
-	<link href="{{secure_asset('frontend_/css/responsive.css')}}" rel="stylesheet">
+    <link href="{{asset('frontend_/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('frontend_/css/font-awesome.min.css')}}" rel="stylesheet">
+    <link href="{{asset('frontend_/css/prettyPhoto.css')}}" rel="stylesheet">
+    <link href="{{asset('frontend_/css/price-range.css')}}" rel="stylesheet">
+    <link href="{{asset('frontend_/css/animate.css')}}" rel="stylesheet">
+	<link href="{{asset('frontend_/css/main.css')}}" rel="stylesheet">
+	<link href="{{asset('frontend_/css/responsive.css')}}" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->       
     <link rel="shortcut icon" href="images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{secure_asset('frontend_/images/ico/apple-touch-icon-144-precomposed.png')}}">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{secure_asset('frontend_/images/ico/apple-touch-icon-114-precomposed.png')}}">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{secure_asset('frontend_/images/ico/apple-touch-icon-72-precomposed.png')}}">
-    <link rel="apple-touch-icon-precomposed" href="{{secure_asset('frontend_/images/ico/apple-touch-icon-57-precomposed.png')}}">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{asset('frontend_/images/ico/apple-touch-icon-144-precomposed.png')}}">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{asset('frontend_/images/ico/apple-touch-icon-114-precomposed.png')}}">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{asset('frontend_/images/ico/apple-touch-icon-72-precomposed.png')}}">
+    <link rel="apple-touch-icon-precomposed" href="{{asset('frontend_/images/ico/apple-touch-icon-57-precomposed.png')}}">
 </head><!--/head-->
 
 <body>
@@ -57,7 +58,7 @@
 				<div class="row">
 					<div class="col-md-4 clearfix">
 						<div class="logo pull-left">
-							<a href="index.html"><img src="{{secure_asset('frontend_/images/home/logo.png')}}" alt="" /></a>
+							<a href="index.html"><img src="{{asset('frontend_/images/home/logo.png')}}" alt="" /></a>
 						</div>
 						<div class="btn-group pull-right clearfix">
 							<div class="btn-group">
@@ -163,8 +164,8 @@
 									<button type="button" class="btn btn-default get">Get it now</button>
 								</div>
 								<div class="col-sm-6">
-									<img src="{{secure_asset('frontend_/images/home/girl1.jpg')}}" class="girl img-responsive" alt="" />
-									<img src="{{secure_asset('frontend_/images/home/pricing.png')}}"  class="pricing" alt="" />
+									<img src="{{asset('frontend_/images/home/girl1.jpg')}}" class="girl img-responsive" alt="" />
+									<img src="{{asset('frontend_/images/home/pricing.png')}}"  class="pricing" alt="" />
 								</div>
 							</div>
 							<div class="item">
@@ -175,8 +176,8 @@
 									<button type="button" class="btn btn-default get">Get it now</button>
 								</div>
 								<div class="col-sm-6">
-									<img src="{{secure_asset('frontend_/images/home/girl2.jpg')}}" class="girl img-responsive" alt="" />
-									<img src="{{secure_asset('frontend_/images/home/pricing.png')}}"  class="pricing" alt="" />
+									<img src="{{asset('frontend_/images/home/girl2.jpg')}}" class="girl img-responsive" alt="" />
+									<img src="{{asset('frontend_/images/home/pricing.png')}}"  class="pricing" alt="" />
 								</div>
 							</div>
 							
@@ -188,8 +189,8 @@
 									<button type="button" class="btn btn-default get">Get it now</button>
 								</div>
 								<div class="col-sm-6">
-									<img src="{{secure_asset('frontend_/images/home/girl3.jpg')}}" class="girl img-responsive" alt="" />
-									<img src="{{secure_asset('frontend_/images/home/pricing.png')}}" class="pricing" alt="" />
+									<img src="{{asset('frontend_/images/home/girl3.jpg')}}" class="girl img-responsive" alt="" />
+									<img src="{{asset('frontend_/images/home/pricing.png')}}" class="pricing" alt="" />
 								</div>
 							</div>
 							
@@ -373,7 +374,7 @@
 							<div class="video-gallery text-center">
 								<a href="#">
 									<div class="iframe-img">
-										<img src="{{secure_asset('frontend_/images/home/iframe1.png')}}" alt="" />
+										<img src="{{asset('frontend_/images/home/iframe1.png')}}" alt="" />
 									</div>
 									<div class="overlay-icon">
 										<i class="fa fa-play-circle-o"></i>
@@ -388,7 +389,7 @@
 							<div class="video-gallery text-center">
 								<a href="#">
 									<div class="iframe-img">
-										<img src="{{secure_asset('frontend_/images/home/iframe2.png')}}" alt="" />
+										<img src="{{asset('frontend_/images/home/iframe2.png')}}" alt="" />
 									</div>
 									<div class="overlay-icon">
 										<i class="fa fa-play-circle-o"></i>
@@ -403,7 +404,7 @@
 							<div class="video-gallery text-center">
 								<a href="#">
 									<div class="iframe-img">
-										<img src="{{secure_asset('frontend_/images/home/iframe3.png')}}" alt="" />
+										<img src="{{asset('frontend_/images/home/iframe3.png')}}" alt="" />
 									</div>
 									<div class="overlay-icon">
 										<i class="fa fa-play-circle-o"></i>
@@ -418,7 +419,7 @@
 							<div class="video-gallery text-center">
 								<a href="#">
 									<div class="iframe-img">
-										<img src="{{secure_asset('frontend_/images/home/iframe4.png')}}" alt="" />
+										<img src="{{asset('frontend_/images/home/iframe4.png')}}" alt="" />
 									</div>
 									<div class="overlay-icon">
 										<i class="fa fa-play-circle-o"></i>
@@ -518,11 +519,11 @@
 	
 
   
-    <script src="{{secure_asset('frontend_/js/jquery.js')}}"></script>
-	<script src="{{secure_asset('frontend_/js/bootstrap.min.js')}}"></script>
-	<script src="{{secure_asset('frontend_/js/jquery.scrollUp.min.js')}}"></script>
-	<script src="{{secure_asset('frontend_/js/price-range.js')}}"></script>
-    <script src="{{secure_asset('frontend_/js/jquery.prettyPhoto.js')}}"></script>
-    <script src="{{secure_asset('frontend_/js/main.js')}}"></script>
+    <script src="{{asset('frontend_/js/jquery.js')}}"></script>
+	<script src="{{asset('frontend_/js/bootstrap.min.js')}}"></script>
+	<script src="{{asset('frontend_/js/jquery.scrollUp.min.js')}}"></script>
+	<script src="{{asset('frontend_/js/price-range.js')}}"></script>
+    <script src="{{asset('frontend_/js/jquery.prettyPhoto.js')}}"></script>
+    <script src="{{asset('frontend_/js/main.js')}}"></script>
 </body>
 </html>
