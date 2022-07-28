@@ -16,6 +16,7 @@
 	<!-- start: Mobile Specific -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- end: Mobile Specific -->
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
 	
 	<!-- start: CSS -->
 	<link id="bootstrap-style" href="{{URL::to('backend_/css/bootstrap.min.css')}}" rel="stylesheet">
