@@ -883,7 +883,7 @@
 						<ul class="dashboard-list metro">
 							<li class="green">
 								<a href="#">
-									<img class="avatar" alt="Lucas" src="img/avatar.jpg">
+									<img class="avatar" alt="Lucas" src="{{URL::to('backend_/img/avatar.jpg')}}">
 								</a>
 								<strong>Name:</strong> Łukasz Holeczek<br>
 								<strong>Since:</strong> Jul 25, 2012 11:09<br>
@@ -891,7 +891,7 @@
 							</li>
 							<li class="yellow">
 								<a href="#">
-									<img class="avatar" alt="Bill" src="img/avatar9.jpg">
+									<img class="avatar" alt="Bill" src="{{URL::to('backend_/img/avatar9.jpg')}}">
 								</a>
 								<strong>Name:</strong> Bill Cole<br>
 								<strong>Since:</strong> Jul 25, 2012 11:09<br>
@@ -899,7 +899,7 @@
 							</li>
 							<li class="red">
 								<a href="#">
-									<img class="avatar" alt="Jane" src="img/avatar5.jpg">
+									<img class="avatar" alt="Jane" src="{{URL::to('backend_/img/avatar5.jpg')}}">
 								</a>
 								<strong>Name:</strong> Jane Sanchez<br>
 								<strong>Since:</strong> Jul 25, 2012 11:09<br>
@@ -907,7 +907,7 @@
 							</li>
 							<li class="blue">
 								<a href="#">
-									<img class="avatar" alt="Kate" src="img/avatar6.jpg">
+									<img class="avatar" alt="Kate" src="{{URL::to('backend_/img/avatar6.jpg')}}">
 								</a>
 								<strong>Name:</strong> Kate Presley<br>
 								<strong>Since:</strong> Jul 25, 2012 11:09<br>
