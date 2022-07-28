@@ -1,7 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+//Above code was added by Eng. Dinis Graça Pedro
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\AdminController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,3 +18,9 @@ use App\Http\Controllers\HomeController;
 
 //Frontend
 Route::get('/', [HomeController::class, 'index']);
+
+
+
+//Backend
+Route::get('/backend', [AdminController::class, 'index']);
+Route::get('/dashboard', [AdminController::class, 'dashboard']);
